@@ -120,6 +120,27 @@
 
             #endregion
 
+            #region question06
+
+            /*
+          What is a generic interface? Write IRepository<T>. 
+             */
+            //Answer:
+            /*
+             A generic interface is an interface that can work with any data type.
+             It allows you to create an interface that can be implemented by different types of classes without the need to write multiple versions of the interface for all types
+             Example:
+             interface IRepository<T>
+            {
+                void Add(T item);
+                T Get(int id);
+                void Update(T item);
+                void Delete(int id);
+            }
+             */ 
+
+            #endregion
+
         }
     }
 }
