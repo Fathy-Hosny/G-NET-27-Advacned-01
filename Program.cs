@@ -90,6 +90,36 @@
              */
 
             #endregion
+
+            #region question05
+
+            /*
+              Write a generic method FindMax<T> that finds maximum value
+             */
+
+            //Answer:
+            /*
+             public static T FindMax<T>(T[] array)
+            where T : IComparable<T>
+            {
+                if (array == null || array.Length == 0)
+                {
+                    throw new ArgumentException("Array cannot be null or empty.");
+                }
+                T max = array[0];
+                foreach (T item in array)
+                {
+                    if (item.CompareTo(max) > 0)
+                    {
+                        max = item;
+                    }
+                }
+                return max;
+            }
+             */
+
+            #endregion
+
         }
     }
 }
