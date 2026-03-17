@@ -47,6 +47,25 @@
 
             #endregion
 
+            #region question03
+            /*
+          What are multiple type parameters? Write Pair<TKey, TValue>.
+             */
+            //Answer:
+            /*
+             class Pair<TKey, TValue>
+            {
+                public TKey Key { get; set; }
+                public TValue Value { get; set; }
+                public Pair(TKey key, TValue value)
+                {
+                    Key = key;
+                    Value = value;
+                }
+
+             
+             */
+            #endregion
         }
     }
 }
