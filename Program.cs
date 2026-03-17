@@ -154,6 +154,26 @@
 
             #endregion
 
+            #region question08
+
+            /* 
+             
+            What is the 'class' constraint? Write an example.
+
+             */
+
+            //Answer:
+
+            //This ensures the type argument must be a Reference Type ( class, interface, string).
+
+            //Example:
+            // class MyClass<T> where T : class
+            // {
+            //     public T Data { get; set; }
+            // }
+
+            #endregion
+
         }
     }
 }
