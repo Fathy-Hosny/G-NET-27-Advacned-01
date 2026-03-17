@@ -137,7 +137,20 @@
                 void Update(T item);
                 void Delete(int id);
             }
-             */ 
+             */
+
+            #endregion
+
+            #region question07
+
+            /* 
+             What is the 'struct' constraint? Write an example
+             
+             */
+            //Answer:
+
+            //This constraint ensures that the type argument must be a Value Type ( int, double, bool, or any struct)
+
 
             #endregion
 
